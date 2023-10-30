@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://kit.fontawesome.com/6be2b4624e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div>
+    <h3 class="total">Total</h3>
+    <p id="total" class="total-price">0</p>
+</div>
+  <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+            </div>
+
+            <div class="contentBx">
+
+                <h2>Nike Shoes</h2>
+
+                <div class="size">
+                    <h3>Size :</h3>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                </div>
+
+                <div class="color">
+
+                    <h3>Price : </h3>
+                    <p>$</p>
+                    <p id="price-1" class="unit-price">130</p>
+                    
+                </div>
+                
+                <a href="#"><i class="fa-solid fa-trash-can fa-2xl" style="color: #1bbfe9;"></i></a>
+                
+                <a href="#">Buy Now</a>
+                <a href="#"><i class="fa-solid fa-heart  fa-2xl" style="color: #1bbfe9;"></i></a>
+                <div>
+                <i class="fa-solid fa-minus fa-xl" style="color: #1b63de;"></i>
+                <span id="qte-1" class="qte">0</span>
+                <i class="fa-regular fa-plus fa-xl" style="color: #1b63de;"></i>
+            </div>
+                
+            </div>
+            
+        </div>
+   
+    </div>
+    <div>
+
+    <!--second card-->
+
+     <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="/assets/télécharger-removebg-preview.png" alt="nike-air-shoe">
+            </div>
+
+            <div class="contentBx">
+
+                <h2>Nike Shoes</h2>
+
+                <div class="size">
+                    <h3>Size :</h3>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                </div>
+
+                <div class="color">
+
+                    <h3>Color :</h3>
+                    <p>$</p>
+                    <p id="price-2" class="unit-price">50</p>
+                </div>
+                <a href="#"><i class="fa-solid fa-trash-can fa-2xl" style="color: #1bbfe9;"></i></a>
+                <a href="#">Buy Now</a>
+                <a href="#"><i class="fa-solid fa-heart fa-2xl" isLiked = false style="color: #1bbfe9;"></i></a>
+           <div>
+                <i onclick="totalTwo()" class="fa-solid fa-minus fa-xl" style="color: #1b63de;"></i>
+                <span id="qte-2" class="qte">0</span>
+                <i onclick="totalTwo()" class="fa-regular fa-plus fa-xl" style="color: #1b63de;"></i>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
